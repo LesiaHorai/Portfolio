@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -36,7 +36,7 @@ p {
 .hero {
   background: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -90,10 +90,16 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  color: #6c63ff;
+  box-shadow: 0px 4px 12px rgb(108, 99, 255);
+}
 .project-description {
-  padding: 25px 60px;
+  margin: 20px 0;
+  padding: 50px 60px;
 }
 .img-fluid {
+  margin-bottom: 15px;
   border-radius: 15px;
 }
 .header {
@@ -114,8 +120,9 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: white;
-  background: var(--brading-color);
+  color: var(--brading-color);
+  box-shadow: 0px 4px 12px rgb(108, 99, 255);
+  border-radius: 4px;
 }
 footer {
   margin: 60px 0;
@@ -159,15 +166,12 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
   .project-description {
     padding: 0;
     text-align: center;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .about-section {
     text-align: center;
