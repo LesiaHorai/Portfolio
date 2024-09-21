@@ -24,6 +24,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -105,8 +108,48 @@ p {
   padding: 10px 20px;
   text-decoration: none;
 }
+a {
+  text-decoration: none;
+  color: var(--brading-color);
+}
 a:hover {
-  box-shadow: 0px 4px 12px rgb(108, 99, 255);
+  text-decoration: none;
+  color: white;
+  background: var(--brading-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .email-link {
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  color: black;
+  font-size: 20px;
+}
+footer .email-link:hover {
+  color: var(--brading-color);
+  background-color: white;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--brading-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--brading-color);
 }
 @media (max-width: 900px) {
   h1 {
@@ -115,6 +158,9 @@ a:hover {
   }
   h2 {
     font-size: 44px;
+  }
+  h4 {
+    font-size: 26px;
   }
   .project-description {
     padding: 0;
